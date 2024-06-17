@@ -5,27 +5,27 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
       BarberAppDesc:
           "El objetivo general de BarberApp es revolucionar la experiencia en las barberías simplificando la reserva de citas y mejorando la comunicación entre clientes y estilistas mediante una plataforma web intuitiva y completa.",
-      BarberAppGithub: "https://github.com/CarlosTirado22/barberApp",
+      BarberAppGithub: "https://github.com/carlostirado23/BarberApp",
       BarberAppWebsite: "#",
 
       CrudDesc:
           "Desarrollé un sistema CRUD en PHP con una interfaz gráfica intuitiva y atractiva. Añadí funcionalidades adicionales, como la búsqueda avanzada en la tabla y la opción de exportar los datos a Excel.",
-      CrudGithub: "https://github.com/CarlosTirado22/-PHP-CRUDBasico-FJD",
+      CrudGithub: "https://github.com/carlostirado23/Crud-API",
       CrudWebsite: "#",
 
       CalculadoraDesc:
           "El proyecto es una calculadora simple diseñada para funcionar en navegadores web. Permite realizar operaciones básicas de suma, resta, multiplicación y división.",
-      CalculadoraGithub: "https://github.com/CarlosTirado22/calculadora",
-      CalculadoraWebsite: "https://carlostirado22.github.io/calculadora/",
+      CalculadoraGithub: "https://github.com/carlostirado23/calcuradora",
+      CalculadoraWebsite: "https://carlostirado23.github.io/calcuradora/",
 
       MusicDesc:
           "Este proyecto es un reproductor de música interactivo con una galería de portadas de álbumes y enlaces a videos de YouTube. Utiliza Swiper para un carrusel navegable con superposiciones que permiten acceder a los videos. Ofrece controles intuitivos para reproducir, pausar y cambiar canciones, junto con una barra de progreso.",
-      MusicGithub: "https://github.com/CarlosTirado22/music",
-      MusicWebsite: "https://carlostirado22.github.io/music/",
+      MusicGithub: "https://github.com/carlostirado23/Musica",
+      MusicWebsite: "https://carlostirado23.github.io/Musica/",
 
       TodoDesc:
           "Desarrollé una aplicación de lista de tareas utilizando React.js para la gestión eficiente de actividades. Esta aplicación permite a los usuarios crear, lee y eliminar tareas de manera intuitiva.",
-      TodoGithub: "https://github.com/CarlosTirado22/To-Do-React",
+      TodoGithub: "https://github.com/carlostirado23/Todo",
       TodoWebsite: "https://practicato-do.netlify.app/",
   };
 
