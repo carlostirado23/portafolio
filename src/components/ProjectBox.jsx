@@ -15,8 +15,8 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
       CalculadoraDesc:
           "El proyecto es una calculadora simple diseñada para funcionar en navegadores web. Permite realizar operaciones básicas de suma, resta, multiplicación y división.",
-      CalculadoraGithub: "https://github.com/carlostirado23/calcuradora",
-      CalculadoraWebsite: "https://carlostirado23.github.io/calcuradora/",
+      CalculadoraGithub: "https://github.com/carlostirado23/calculadora",
+      CalculadoraWebsite: "https://carlostirado23.github.io/calculadora/",
 
       MusicDesc:
           "Este proyecto es un reproductor de música interactivo con una galería de portadas de álbumes y enlaces a videos de YouTube. Utiliza Swiper para un carrusel navegable con superposiciones que permiten acceder a los videos. Ofrece controles intuitivos para reproducir, pausar y cambiar canciones, junto con una barra de progreso.",
