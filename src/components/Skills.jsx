@@ -7,7 +7,7 @@ import { FaReact,
   FaCss3, 
   FaPhp,} from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { SiTailwindcss, SiMysql } from "react-icons/si";
+import { SiTailwindcss, SiMysql, SiPowerbi } from "react-icons/si";
 import "../assets/css/Inicio.css";
 
 const Skills = ({ skill }) => {
@@ -22,6 +22,7 @@ const Skills = ({ skill }) => {
       Github: <FaGithub />,
       Mysql: <SiMysql />,
       Php: <FaPhp />,
+      Powerbi: <SiPowerbi />,
   };
 
   return (

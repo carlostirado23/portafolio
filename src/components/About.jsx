@@ -28,6 +28,7 @@ export function About() {
                     <Skills skill="React" />
                     <Skills skill="Git" />
                     <Skills skill="Github" />
+                    <Skills skill="Powerbi" />
                     <Skills skill="Mysql" />
                     <Skills skill="Php" />
                 </div>
