@@ -5,8 +5,10 @@ import { FaReact,
   FaBootstrap, 
   FaHtml5, 
   FaCss3, 
+  FaNode,
   FaPhp,} from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { SiTailwindcss, SiMysql, SiPowerbi } from "react-icons/si";
 import "../assets/css/Inicio.css";
 
@@ -21,8 +23,10 @@ const Skills = ({ skill }) => {
       Git: <FaGitAlt />,
       Github: <FaGithub />,
       Mysql: <SiMysql />,
+      Postgresql: <BiLogoPostgresql />,
       Php: <FaPhp />,
       Powerbi: <SiPowerbi />,
+      Node: <FaNode />,
   };
 
   return (

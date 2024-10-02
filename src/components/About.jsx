@@ -6,9 +6,9 @@ export function About() {
     return (
         <>
             <section>
-                <div className="flex justify-evenly items-center p-6 ">
+                <div className="flex items-center p-6 justify-evenly ">
                     <div className="about w-8/12  text-lg tracking max-[768px]:w-80 max-[768px]:text-2xl">
-                        <h1 className="text-4xl font-semibold p-2">Hola!</h1>
+                        <h1 className="p-2 text-4xl font-semibold">Hola!</h1>
                         <p className="p-2 ">
                             Soy <b>Carlos Mario Tirado</b>, egresado no graduado de la Universidad del Sinú con un
                             fuerte interés en el <b>Desarrollo Frontend</b>. Me gusta combinar mi pasión por el diseño
@@ -18,8 +18,8 @@ export function About() {
                     </div>
                 </div>
 
-                <h1 className="habilidad text-center font-bold text-4xl tracking-widest"> Habilidades</h1>
-                <div className="skills flex flex-wrap justify-center p-5">
+                <h1 className="text-4xl font-bold tracking-widest text-center habilidad"> Habilidades</h1>
+                <div className="flex flex-wrap justify-center p-5 skills">
                     <Skills skill="HTML" />
                     <Skills skill="CSS" />
                     <Skills skill="Bootstrap" />
@@ -30,7 +30,9 @@ export function About() {
                     <Skills skill="Github" />
                     <Skills skill="Powerbi" />
                     <Skills skill="Mysql" />
+                    <Skills skill="Postgresql" />
                     <Skills skill="Php" />
+                    <Skills skill="Node" />
                 </div>
             </section>
             <Footer />
