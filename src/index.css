@@ -13,6 +13,14 @@
     --primary-dark: #1f252e;
 }
 
+html, body {
+    overflow-x: scroll; /* Permite el scroll horizontal */
+    scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+}
+
+
+
+
 body {
     background: #ffffff;
     color: #000;
