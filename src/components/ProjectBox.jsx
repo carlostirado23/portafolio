@@ -30,20 +30,20 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
   };
 
   return (
-      <div className="projectBox w-96 border-solid text-lg border-2 border-violet-800 rounded-xl text-center p-4 tracking-widest hover:bg-violet-900 hover:border-none hover:scale-110 transition-all hover:text-slate-50">
+      <div className="p-4 text-lg tracking-widest text-center transition-all border-2 border-solid projectBox w-96 border-violet-800 rounded-xl hover:bg-violet-900 hover:border-none hover:scale-110 hover:text-slate-50">
           <div className="flex justify-center">
-              <img className=" w-full m-0" src={projectPhoto} />
+              <img className="w-full m-0 " src={projectPhoto} />
           </div>
           <div>
               <div>
-                  <h3 className="font-medium text-2xl">{projectName}</h3>
-                  <p className="p-3">{desc[projectName + "Desc"]}</p>
+                  <h3 className="text-2xl font-medium">{projectName}</h3>
+                  <p className="p-3 ">{desc[projectName + "Desc"]}</p>
               </div>
 
-              <div className="flex justify-center items-center gap-8 p-4">
+              <div className="flex items-center justify-center gap-8 p-4">
                   <a href={desc[projectName + "Github"]} target="_blank" rel="noopener noreferrer">
                       <button
-                          className="text-4xl shadow-2xl shadow-slate-700 hover:bg-violet-950 rounded-xl p-2 flex gap-2 items-center"
+                          className="flex items-center gap-2 p-2 text-4xl shadow-2xl shadow-slate-700 hover:bg-violet-950 rounded-xl"
                           title="Github">
                           <FaGithub />
                       </button>
@@ -52,14 +52,14 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
                   {desc[projectName + "Website"] !== "#" ? (
                       <a href={desc[projectName + "Website"]} target="_blank" rel="noopener noreferrer">
                           <button
-                              className="text-4xl shadow-2xl shadow-slate-700 rounded-xl p-2 hover:bg-violet-950 flex gap-2 items-center"
+                              className="flex items-center gap-2 p-2 text-4xl shadow-2xl shadow-slate-700 rounded-xl hover:bg-violet-950"
                               title="URL página">
                               <CiLink />
                           </button>
                       </a>
                   ) : (
                       <button
-                          className="text-4xl shadow-2xl shadow-slate-700 rounded-xl p-2 flex gap-2 items-center cursor-not-allowed text-gray-400"
+                          className="flex items-center gap-2 p-2 text-4xl text-gray-400 shadow-2xl cursor-not-allowed shadow-slate-700 rounded-xl"
                           title="Página no disponible">
                           <CiLink />
                       </button>

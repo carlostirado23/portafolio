@@ -8,11 +8,11 @@ import "../assets/css/Inicio.css";
 export function Home() {
     return (
         <section className="max-[768px]:overflow-hidden">
-            <div className="">
+            <div className="w-full">
                 <div className="flex gap-x-24 gap-y-8 p-4 justify-evenly items-center max-[768px]:flex-col">
-                    <div className="w-80 max-[768px]:flex max-[768px]:flex-col max-[768px]:justify-evenly">
-                        <h3 className="text-2xl animate-bounce pb-3">
-                            <span className=" bg-violet-800 text-white p-2 text-xl font-medium rounded-md">
+                    <div className="w-33rem max-[768px]:flex max-[768px]:flex-col max-[768px]:justify-evenly">
+                        <h3 className="pb-3 text-2xl animate-bounce">
+                            <span className="p-2 text-xl font-medium text-white rounded-md bg-violet-800">
                                 Carlos Tirado
                             </span>
                         </h3>
@@ -26,12 +26,14 @@ export function Home() {
                                 </p>
                             </div>
                             <div className="pt-2">
-                                <p className="front w-96 text-xl max-[768px]:text-2xl max-[768px]:w-80">
-                                    Apasionado por crear sitios web visualmente impresionantes y fáciles de usar.
+                                <p className="font-roboto front w-full text-lg max-[768px]:text-2xl max-[768px]:w-80">
+                                    Apasionado por las tecnologías web modernas como React, Node.js y Tailwind CSS.
+                                    Disfruto creando aplicaciones que son tanto visualmente atractivas como técnicamente
+                                    eficientes.
                                 </p>
                             </div>
                         </div>
-                        <div className="social flex items-center flex-wrap gap-6 p-2">
+                        <div className="flex flex-wrap items-center gap-6 p-2 social">
                             <a href="mailto:mariotiradotovar@gmail.com">
                                 <BiLogoGmail />
                             </a>

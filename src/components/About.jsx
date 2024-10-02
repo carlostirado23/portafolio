@@ -8,11 +8,15 @@ export function About() {
             <section>
                 <div className="flex items-center p-6 justify-evenly ">
                     <div className="about w-8/12  text-lg tracking max-[768px]:w-80 max-[768px]:text-2xl">
-                        <h1 className="p-2 text-4xl font-semibold">Hola!</h1>
-                        <p className="p-2 ">
-                            Soy <b>Carlos Mario Tirado</b>, egresado no graduado de la Universidad del Sinú con un
-                            fuerte interés en el <b>Desarrollo Frontend</b>. Me gusta combinar mi pasión por el diseño
-                            con mis habilidades técnicas para crear experiencias web únicas e impactantes.
+                        <h1 className="p-2 text-4xl font-semibold font-roboto">Hola!</h1>
+                        <p className="p-2 font-roboto">
+                            Soy <strong>Carlos Mario Tirado</strong>, un desarrollador web apasionado por las{" "}
+                            <strong>tecnologías modernas</strong> como React, Node.js, Tailwind CSS, entre otras. Mi
+                            enfoque está en crear aplicaciones web que sean tanto{" "}
+                            <strong>visualmente atractivas</strong> como <strong>técnicamente eficientes</strong>,
+                            siempre buscando mejorar la experiencia del usuario y optimizar el rendimiento. Me
+                            especializo en transformar ideas en soluciones digitales completas, desde el diseño frontend
+                            hasta la implementación backend.
                             <br />
                         </p>
                     </div>

@@ -46,14 +46,14 @@ export function NavBar() {
 
     return (
         <div className="w-full h-28">
-            <nav className="bg-white shadow-xl dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <nav className="fixed top-0 z-20 w-full bg-white shadow-xl dark:bg-gray-900 start-0">
+                <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-2 mx-auto">
                     <a href="#Inicio" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white hover:text-violet-800">
                             Carlos
                         </span>
                     </a>
-                    <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
                         <label htmlFor="darkModeToggle" className="flex items-center p-2 cursor-pointer">
                             <input
                                 type="checkbox"
@@ -84,7 +84,7 @@ export function NavBar() {
                             menu ? "block" : "hidden"
                         } w-full md:flex md:w-auto md:order-1`}
                         id="navbar-sticky">
-                        <ul className="flex flex-col p-4 font-bold text-lg md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                        <ul className="flex flex-col p-4 mt-4 text-lg font-bold border rounded-lg md:p-0 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                             <li>
                                 <Link
                                     to="/"

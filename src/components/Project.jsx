@@ -11,10 +11,10 @@ export const project = () => {
     return (
         <>
             <section>
-                <div className="flex justify-center items-center p-3">
-                    <h1 className="projecth1 font-semibold text-6xl max-[768px]:text-4xl">Mis proyectos</h1>
+                <div className="flex items-center justify-center p-3">
+                    <h1 className="projecth1 font-semibold text-5xl max-[768px]:text-4xl">Mis proyectos</h1>
                 </div>
-                <div className="project flex flex-wrap justify-center gap-5 p-5 m-5">
+                <div className="flex flex-wrap justify-center gap-5 p-5 m-5 project">
                     <ProjectBox projectPhoto={BarberApp} projectName="BarberApp" />
                     <ProjectBox projectPhoto={Crud} projectName="Crud" />
                     <ProjectBox projectPhoto={Calculadora} projectName="Calculadora" />
