@@ -23,10 +23,10 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       MusicGithub: "https://github.com/carlostirado23/Musica",
       MusicWebsite: "https://carlostirado23.github.io/Musica/",
 
-      TodoDesc:
-          "Desarrollé una aplicación de lista de tareas utilizando React.js para la gestión eficiente de actividades. Esta aplicación permite a los usuarios crear, lee y eliminar tareas de manera intuitiva.",
-      TodoGithub: "https://github.com/carlostirado23/Todo",
-      TodoWebsite: "https://practicato-do.netlify.app/",
+      ModistaDesc:
+          "Desarrollé una aplicación con React, Node, Express y Firestore de Firebase para optimizar la gestión de clientes de una modista. Anteriormente, llevaba los registros en un cuaderno, lo que dificultaba la búsqueda de medidas. Con el aplicativo, redujo el tiempo de búsqueda en un 80%, mejorando la eficiencia y organización de su negocio. 🚀",
+      ModistaGithub: "https://github.com/carlostirado23/pruebaModistaFrontend",
+      ModistaWebsite: "https://pruebamodista.vercel.app/",
   };
 
   return (

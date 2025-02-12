@@ -2,7 +2,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 import Types from "./Type";
-import foto from "../assets/images/img2.png";
+import foto from "../assets/images/img2.jpg";
 import "../assets/css/Inicio.css";
 
 export function Home() {
@@ -12,7 +12,7 @@ export function Home() {
                 <div className="flex gap-x-24 gap-y-8 p-4 justify-evenly items-center max-[768px]:flex-col">
                     <div className="w-33rem max-[768px]:w-80">
                         <h3 className="pb-3 text-2xl animate-bounce">
-                            <span className="p-2 text-xl font-medium text-white rounded-md bg-violet-800">
+                            <span className="p-2 text-xl font-medium text-white rounded-md textoCar bg-violet-800">
                                 Carlos Tirado
                             </span>
                         </h3>

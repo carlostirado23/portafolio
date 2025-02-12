@@ -5,7 +5,7 @@ import BarberApp from "../assets/images/BarberApp.png";
 import Crud from "../assets/images/crud.png";
 import Calculadora from "../assets/images/calculadora.png";
 import Music from "../assets/images/music.png";
-import Todo from "../assets/images/Todo.png";
+import Modista from "../assets/images/modista.png";
 
 export const project = () => {
     return (
@@ -19,7 +19,7 @@ export const project = () => {
                     <ProjectBox projectPhoto={Crud} projectName="Crud" />
                     <ProjectBox projectPhoto={Calculadora} projectName="Calculadora" />
                     <ProjectBox projectPhoto={Music} projectName="Music" />
-                    <ProjectBox projectPhoto={Todo} projectName="Todo" />
+                    <ProjectBox projectPhoto={Modista} projectName="Modista" />
                 </div>
             </section>
             <Footer />

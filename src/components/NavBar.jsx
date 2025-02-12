@@ -48,11 +48,11 @@ export function NavBar() {
         <div className="w-full h-28">
             <nav className="fixed top-0 z-20 w-full bg-white shadow-xl dark:bg-gray-900 start-0">
                 <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-2 mx-auto">
-                    <a href="#Inicio" className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <div className="flex items-center space-x-3 rtl:space-x-reverse">
                         <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white hover:text-violet-800">
                             Carlos
                         </span>
-                    </a>
+                    </div>
                     <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
                         <label htmlFor="darkModeToggle" className="flex items-center p-2 cursor-pointer">
                             <input
