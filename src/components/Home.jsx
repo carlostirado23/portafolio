@@ -12,7 +12,7 @@ export function Home() {
                 <div className="flex gap-x-24 gap-y-8 p-4 justify-evenly items-center max-[768px]:flex-col">
                     <div className="w-33rem max-[768px]:w-80">
                         <h3 className="pb-3 text-2xl animate-bounce">
-                            <span className="p-2 text-xl font-medium text-white rounded-md textoCar bg-violet-800">
+                            <span className="p-2 text-xl font-medium text-white rounded-md parrafo bg-violet-800">
                                 Carlos Tirado
                             </span>
                         </h3>

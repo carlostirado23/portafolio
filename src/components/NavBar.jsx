@@ -49,7 +49,7 @@ export function NavBar() {
             <nav className="fixed top-0 z-20 w-full bg-white shadow-xl dark:bg-gray-900 start-0">
                 <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-2 mx-auto">
                     <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white hover:text-violet-800">
+                        <span className="self-center text-2xl font-bold textCar whitespace-nowrap dark:text-white hover:text-violet-800">
                             Carlos
                         </span>
                     </div>
