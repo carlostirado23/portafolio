@@ -27,9 +27,9 @@ export function Home() {
                             </div>
                             <div className="pt-2">
                                 <p className="font-roboto front w-full text-lg max-[768px]:text-2xl max-[768px]:w-80">
-                                    Apasionado por las tecnologías web modernas como React, Node.js y Tailwind CSS.
-                                    Disfruto creando aplicaciones que son tanto visualmente atractivas como técnicamente
-                                    eficientes.
+                                    Profesional en Ingeniería de Sistemas especializado en desarrollo web frontend y
+                                    backend. Me enfoco en crear soluciones digitales robustas, accesibles y con una
+                                    experiencia de usuario de alto nivel.
                                 </p>
                             </div>
                         </div>

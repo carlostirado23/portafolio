@@ -10,13 +10,16 @@ export function About() {
                     <div className="about w-8/12  text-lg tracking max-[768px]:w-80 max-[768px]:text-2xl">
                         <h1 className="p-2 text-4xl font-semibold font-roboto">Hola!</h1>
                         <p className="p-2 font-roboto">
-                            Soy <strong>Carlos Mario Tirado</strong>, un desarrollador web apasionado por las{" "}
-                            <strong>tecnologías modernas</strong> como React, Node.js, Tailwind CSS, entre otras. Mi
-                            enfoque está en crear aplicaciones web que sean tanto{" "}
-                            <strong>visualmente atractivas</strong> como <strong>técnicamente eficientes</strong>,
-                            siempre buscando mejorar la experiencia del usuario y optimizar el rendimiento. Me
-                            especializo en transformar ideas en soluciones digitales completas, desde el diseño frontend
-                            hasta la implementación backend.
+                            Soy <strong>Carlos Mario Tirado</strong>, Ingeniero de Sistemas con perfil orientado al
+                            desarrollo web y la creación de soluciones digitales eficientes. Me destaco por combinar
+                            pensamiento analítico, enfoque en resultados y atención al detalle en cada proyecto.
+                            <br />
+                            Tengo experiencia desarrollando productos digitales completos, desde la concepción de la
+                            interfaz hasta la lógica funcional, priorizando siempre la usabilidad, el rendimiento y la
+                            calidad del código.
+                            <br />
+                            Comprometido con el aprendizaje continuo y la mejora constante, aporto valor tanto en
+                            entornos colaborativos como en proyectos individuales.
                             <br />
                         </p>
                     </div>
@@ -37,6 +40,8 @@ export function About() {
                     <Skills skill="Postgresql" />
                     <Skills skill="Php" />
                     <Skills skill="Node" />
+                    <Skills skill="Golang" />
+                    <Skills skill="Docker" />
                 </div>
             </section>
             <Footer />
